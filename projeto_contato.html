@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Exclusiva - Contato</title>
+    <style>
+        /* Estilo geral */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fffaf5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #1c1a1b;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Menu de navegação */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #000000;
+            padding: 10px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #1c1b1b;
+        }
+
+        /* Formulário de cadastro */
+        .cadastro {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #0f0d0e;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .cadastro h2 {
+            text-align: center;
+            color: #141213;
+        }
+
+        .cadastro label {
+            display: block;
+            margin-top: 15px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .cadastro input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #131212;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .cadastro button {
+            width: 100%;
+            padding: 10px;
+            background-color: #101010;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+            margin-top: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .cadastro button:hover {
+            background-color: #161515;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Loja Exclusiva para Elas</h1>
+    </header>
+    <nav>
+        <a href="projeto_inicio.html">Início</a>
+        <a href="projeto_loja.html">Loja</a>
+        <a href="projeto_cadastro.html">Cadastro</a>
+        <a href="projeto_contato.html">Contato</a>
+    </nav>
+    <section class="contato">
+        <h2>Entre em Contato</h2>
+        <form action="#" method="POST">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+</body>
+</html>
